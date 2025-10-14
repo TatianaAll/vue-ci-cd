@@ -8,6 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue --fix src",
+    "lint:check": "eslint --ext .js,.vue src",
+    "format:check": "prettier . --check",
     "format": "prettier .  --write",
     "prepare": "husky"
   },
