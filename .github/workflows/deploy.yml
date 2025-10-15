@@ -26,11 +26,11 @@ jobs:
     steps:
       #Etape 1
       - name: Récupération du code
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
 
       #Etape 2
       - name: Installation Node.js
-        uses: action/setup-node@v4
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
