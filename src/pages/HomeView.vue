@@ -1,5 +1,4 @@
 <script setup>
-import ContactComponent from "../components/ContactComponent.vue";
 import ProfileView from "../components/ProfileView.vue";
 import WorkExperiments from "../components/resume/WorkExperiments.vue";
 import StudiesHistory from "../components/resume/StudiesHistory.vue";
@@ -29,10 +28,6 @@ import resume from "../assets/resume.json";
       </div>
     </section>
 
-    <section id="profile" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
-      <ProfileView />
-    </section>
-
     <section id="experiments" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
       <WorkExperiments :work="resume.work" />
     </section>
@@ -42,7 +37,7 @@ import resume from "../assets/resume.json";
     </section>
 
     <section id="contact" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
-      <ContactComponent />
+      <ProfileView :basics="resume.basics" />
     </section>
   </main>
 </template>

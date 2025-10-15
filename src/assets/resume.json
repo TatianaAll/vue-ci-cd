@@ -6,7 +6,7 @@
     "email": "tatiana.allery@orange.fr",
     "phone": "06 76 24 26 17",
     "url": "",
-    "summary": "Qui je suis :",
+    "summary": "Développeuse web suite à une reconversion, plutôt attirée par le backend",
     "location": {
       "address": "38 avenue de la vieille tour",
       "postalCode": "33400",
@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "tatiana",
-        "url": "https://twitter.com/john"
+        "url": "https://www.linkedin.com/in/tatiana-allery/"
       }
     ]
   },
@@ -63,11 +63,20 @@
     {
       "organization": "Maison Rose Up",
       "position": "Service civique",
-      "url": "https://organization.com/",
+      "url": "https://www.rose-up.fr/maisonroseup-bordeaux/",
       "startDate": "01/12/2023",
       "endDate": "31/05/2024",
       "summary": "Service civique de 6 mois à Maison RoseUp de Bordeaux, qui accompagne les femmes touchées par tout type de cancer.",
       "highlights": ["Communication", "Ecoute active et bienveillante"]
+    },
+    {
+      "organization": "Konexio",
+      "position": "bénévole",
+      "url": "https://www.konexio.eu/association-formation-numerique-bordeaux",
+      "startDate": "15/07/2025",
+      "endDate": "...",
+      "summary": "Bénévole lors de l'été 2025, accompagnement sur des cours grand débutant et Gmail",
+      "highlights": ["Communication", "Vulgarisation"]
     }
   ],
   "education": [
@@ -123,9 +132,21 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "Langages de programmation",
+      "level": "",
+      "keywords": ["HTML", "CSS", "JavaScript", "PHP", "Java"]
+    },
+    {
+      "name": "Frameworks et bibliothèques",
+      "level": "",
+      "keywords": [
+        "Bootstrap",
+        "TailwindCSS",
+        "TypeScript",
+        "Symfony",
+        "Spring",
+        "Vue.js"
+      ]
     }
   ],
   "languages": [
@@ -160,12 +181,17 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Accrochet-vous",
+      "startDate": "01/12/2024",
+      "endDate": "01/02/2025",
+      "description": "Site communautaire de crochet, pour la soutenance du titre RNCP Développeur Web et Web Mobile",
+      "highlights": [
+        "authentification",
+        "gestion de la base de données",
+        "sécurité",
+        "responsive"
+      ],
+      "url": "https://github.com/TatianaAll/accrochet-vous"
     }
   ]
 }

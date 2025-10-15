@@ -1,19 +1,60 @@
+<script setup>
+defineProps({
+  basics: {
+    type: Object,
+    default: () => ({
+      name: "",
+      label: "",
+      image: "",
+      email: "",
+      phone: "",
+      profiles: [],
+    }),
+  },
+});
+</script>
+
 <template>
-  <div class="p-4">
-    <h1 class="text-3xl font-bold text-center text-[#31525B]">
-      {{ datas.basics.summary }}
-    </h1>
-    <div class="text-center my-4">
-      A propos de moi : <br />
-      <p></p>
-      Mon nom est {{ datas.basics.name }}, j'ai 28 ans. Je suis
-      {{ datas.basics.label }}. J'ai commencé ma formation en alternance le
-      {{ datas.education[0].startDate }} à {{ datas.education[0].institution }},
-      je suis en alternance chez {{ datas.work[0].name }}. J'habite à
-      {{ datas.basics.location.address }}, {{ datas.basics.location.city }}.
+  <div class="flex flex-col items-center text-center py-8">
+    <!-- Image de profil -->
+    <img
+      v-if="basics.image"
+      :src="basics.image"
+      alt="Photo de profil"
+      class="w-32 h-32 rounded-full object-cover shadow-md mb-4"
+    />
+
+    <!-- Nom et poste -->
+    <h1 class="text-3xl font-bold text-gray-900">{{ basics.name }}</h1>
+    <h2 class="text-lg text-gray-600 mb-4">{{ basics.label }}</h2>
+
+    <!-- Contact -->
+    <div class="space-y-1 text-gray-700">
+      <p v-if="basics.email">
+        📧
+        <a
+          :href="`mailto:${basics.email}`"
+          class="text-[#FC6471] hover:underline"
+        >
+          {{ basics.email }}
+        </a>
+      </p>
+      <p v-if="basics.phone">📞 {{ basics.phone }}</p>
+    </div>
+
+    <div
+      v-if="basics.profiles?.length"
+      class="flex flex-wrap justify-center gap-3 mt-4"
+    >
+      <a
+        v-for="profile in basics.profiles"
+        :key="profile.network"
+        :href="profile.url"
+        target="_blank"
+        class="bg-gray-100 hover:bg-[#31525B] hover:text-white transition-colors px-4 py-1.5 rounded-full text-sm font-medium"
+      >
+        {{ profile.network }}
+      </a>
     </div>
   </div>
 </template>
-<script setup>
-import datas from "../assets/resume.json";
-</script>
