@@ -1,20 +1,21 @@
-<script setup lang="ts">
-import NavLink from "./NavLink.vue";
-</script>
+<script setup></script>
 
 <template>
   <header>
-    <nav class="bg-gray-600 text-white p-4">
+    <nav class="bg-[#31525B] p-4">
       <div class="">
         <ul class="relative flex h-10 items-center justify-start gap-8">
-          <li class="">
-            <NavLink to="#home">Accueil</NavLink>
+          <li class="text-[#B3DEE5] text-lg">
+            <a href="#home"> Accueil </a>
           </li>
-          <li>
-            <NavLink to="#profile">Mon profil</NavLink>
+          <li class="text-[#B3DEE5] text-lg">
+            <a href="#profile"> Mon profil </a>
           </li>
-          <li>
-            <NavLink to="#contact">Contact</NavLink>
+          <li class="text-[#B3DEE5] text-lg">
+            <a href="#experience"> Mes expériences professionnelles </a>
+          </li>
+          <li class="text-[#B3DEE5] text-lg">
+            <a href="#contact"> Contact </a>
           </li>
         </ul>
       </div>

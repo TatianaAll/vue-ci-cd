@@ -1,33 +1,41 @@
 <script setup>
 import ContactComponent from "../components/ContactComponent.vue";
 import ProfileView from "../components/ProfileView.vue";
+import WorkExperiments from "../components/resume/WorkExperiments.vue";
 </script>
 
 <template>
-  <main class="p-4 scroll-smooth">
-    <section id="home" class="bg-gray-100 rounded-xsm m-2 p-4">
+  <main class="p-4">
+    <section id="home" class="bg-[#FAE6B1] rounded-xsm m-2 p-4">
       <div class="flex items-center justify-around gap-4 mx-auto">
         <div>
-          <h1 class="text-5xl font-bold text-center font-lexend">
+          <h1 class="text-5xl font-bold text-center font-lexend text-[#31525B]">
             Tatiana Allery
           </h1>
-          <p class="text-3xl font-lexend">Développeuse web junior</p>
+          <p class="text-3xl font-lexend text-[#31525B]">
+            Développeuse web junior
+          </p>
         </div>
-        <div class="w-[30rem] mt-4">
+        <div class="w-[30rem] mt-4 text-xs">
           <img
             src="../assets/homePhoto.jpg"
             alt="c'est pas moi mais presque"
             class="rounded-lg shadow-lg"
           />
+          image d'illustration, qui ne reflète aucune réalité 😇
         </div>
       </div>
     </section>
 
-    <section id="profile" class="bg-gray-100">
+    <section id="profile" class="bg-[#FAE6B1] rounded-xsm m-2 p-4">
       <ProfileView />
     </section>
 
-    <section id="contact" class="bg-gray-100">
+    <section id="experiences" class="bg-[#FAE6B1] rounded-xsm m-2 p-4">
+      <WorkExperiments />
+    </section>
+
+    <section id="contact" class="bg-[#FAE6B1] rounded-xsm m-2 p-4">
       <ContactComponent />
     </section>
   </main>
