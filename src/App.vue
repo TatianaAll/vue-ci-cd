@@ -1,19 +1,12 @@
-<script setup></script>
+<script setup>
+import NavBar from "./components/NavBar.vue";
+import Profile from "./components/ProfileView.vue";
+</script>
 
 <template>
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <RouterLink to="/">Home</RouterLink>
-        </li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
-  </header>
-
+  <NavBar />
   <RouterView />
+  <Profile />
 </template>
 
 <style scoped></style>
