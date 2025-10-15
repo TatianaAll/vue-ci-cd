@@ -42,6 +42,7 @@ jobs:
       #Etape 3.1 : linter le code et bloquer la pipeline si ça échoue
       - name: Vérification du linter
         run: npm run lint:check
+
       #Etape 3.2 : Vérifier le formattage du code et bloquer la pipeline s'il est incorrect
       - name: Vérification formattage
         run: npm run format:check
