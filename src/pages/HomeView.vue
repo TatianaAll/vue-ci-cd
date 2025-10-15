@@ -2,6 +2,7 @@
 import ContactComponent from "../components/ContactComponent.vue";
 import ProfileView from "../components/ProfileView.vue";
 import WorkExperiments from "../components/resume/WorkExperiments.vue";
+import StudiesHistory from "../components/resume/StudiesHistory.vue";
 import resume from "../assets/resume.json";
 </script>
 
@@ -32,8 +33,12 @@ import resume from "../assets/resume.json";
       <ProfileView />
     </section>
 
-    <section id="experiences" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+    <section id="experiments" class="bg-[#FAE6B1] rounded-md m-2 p-4">
       <WorkExperiments :work="resume.work" />
+    </section>
+
+    <section id="studies" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+      <StudiesHistory :education="resume.education" />
     </section>
 
     <section id="contact" class="bg-[#FAE6B1] rounded-md m-2 p-4">

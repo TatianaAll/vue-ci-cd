@@ -12,7 +12,10 @@
             <a href="#profile"> Mon profil </a>
           </li>
           <li class="text-[#B3DEE5] text-lg">
-            <a href="#experience"> Mes expériences professionnelles </a>
+            <a href="#experiments"> Mes expériences professionnelles </a>
+          </li>
+          <li class="text-[#B3DEE5] text-lg">
+            <a href="#studies"> Mes formations </a>
           </li>
           <li class="text-[#B3DEE5] text-lg">
             <a href="#contact"> Contact </a>
