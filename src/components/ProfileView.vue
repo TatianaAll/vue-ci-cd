@@ -1,6 +1,6 @@
 <template>
   <div class="p-4 bg-gray-100">
-    <h2 class="text-2xl font-bold mb-4">Profile Component</h2>
-    <p>This is the profile component content.</p>
+    <h1 class="text-3xl font-bold text-center">Qui suis-je ?</h1>
+    <p>C'est mon composant "profile"</p>
   </div>
 </template>
