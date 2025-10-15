@@ -37,10 +37,11 @@ jobs:
 
       #Etape 3: installation des mêmes dépendances que celles du projet
       - name: Installation des dépendances
-        run: npm run build
+        run: npm ci
 
       #Etape 4 Construire l'application pour la prod
       - name: Construction de l'application
+        run: npm run build
 
       #Etape 5 Préparer Github Pages
       - name: Configuration de Github Pages
@@ -48,4 +49,6 @@ jobs:
 
       #Etape 6 Uploader le dossier dist
       - name: Upload des fichiers
-        uses: actions/upload
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./dist"
