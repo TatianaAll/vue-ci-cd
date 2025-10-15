@@ -8,7 +8,7 @@ import resume from "../assets/resume.json";
 
 <template>
   <main class="p-4 bg-[#FCFCF0]">
-    <section id="home" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+    <section id="home" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
       <div class="flex items-center justify-around gap-4 mx-auto">
         <div>
           <h1 class="text-5xl font-bold text-center font-lexend text-[#31525B]">
@@ -29,19 +29,19 @@ import resume from "../assets/resume.json";
       </div>
     </section>
 
-    <section id="profile" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+    <section id="profile" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
       <ProfileView />
     </section>
 
-    <section id="experiments" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+    <section id="experiments" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
       <WorkExperiments :work="resume.work" />
     </section>
 
-    <section id="studies" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+    <section id="studies" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
       <StudiesHistory :education="resume.education" />
     </section>
 
-    <section id="contact" class="bg-[#FAE6B1] rounded-md m-2 p-4">
+    <section id="contact" class="bg-[#FAE6B1] rounded-md my-3 mx-2 p-4">
       <ContactComponent />
     </section>
   </main>

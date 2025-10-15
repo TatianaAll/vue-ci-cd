@@ -19,7 +19,7 @@ defineProps({
       <a
         :href="studie.url"
         target="_blank"
-        class="text-[#B3DEE5] hover:underline"
+        class="text-[#FC6471] hover:underline"
         >{{ studie.institution }}</a
       >
     </h3>

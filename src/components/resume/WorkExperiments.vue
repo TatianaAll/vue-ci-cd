@@ -21,7 +21,7 @@ defineProps({
       <a
         :href="job.url"
         target="_blank"
-        class="text-[#B3DEE5] hover:underline"
+        class="text-[#FC6471] hover:underline"
         >{{ job.name }}</a
       >
     </h3>
