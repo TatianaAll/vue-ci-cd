@@ -1,0 +1,171 @@
+{
+  "basics": {
+    "name": "Tatiana Allery",
+    "label": "Alternante en développement web",
+    "image": "",
+    "email": "tatiana.allery@orange.fr",
+    "phone": "06 76 24 26 17",
+    "url": "https://johndoe.com",
+    "summary": "Qui je suis :",
+    "location": {
+      "address": "38 avenue de la vieille tour",
+      "postalCode": "33400",
+      "city": "Talence",
+      "countryCode": "FR",
+      "region": "Nouvelle-Aquitaine"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tatiana",
+        "url": "https://twitter.com/john"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "DBF-autos",
+      "position": "Alternante en développement web",
+      "url": "https://www.dbf-autos.fr/",
+      "startDate": "01/09/2025",
+      "endDate": "28/08/2026",
+      "summary": "Alternance de 12 mois en développement web sur des outils internes.",
+      "highlights": ["PHP natif", "SQL"]
+    },
+    {
+      "name": "Maison Rose Up",
+      "position": "Chargée d'accueil et de missions polyvalentes",
+      "url": "https://www.rose-up.fr/maisonroseup-bordeaux/",
+      "startDate": "01/06/2023",
+      "endDate": "10/09/2024",
+      "summary": "CDD à temps partiel en tant que chargée d'accueil et de missions polyvalentes. Gestion du projet 'Hors les murs' pour proposer des temps d'échanges dans toutes la Gironde.",
+      "highlights": [
+        "Gestion de projet",
+        "Communication",
+        "Organisation d'événements"
+      ]
+    },
+    {
+      "name": "INRAE",
+      "position": "Ingénieure d'études",
+      "url": "https://biogeco.hub.inrae.fr/equipes/gemfor/",
+      "startDate": "01/07/2021",
+      "endDate": "10/06/2022",
+      "summary": "CDD d'un an en tant qu'ingénieure d'études sur le projet SPNA (Sylviculture de Précision en Nouvelle-Aquitaine). Organisation de prélèvements sur le terrain, en Dordogne et Gironde. Analyse des résultats en R ou Python. Cartographie des données.",
+      "highlights": [
+        "Gestion de projet",
+        "Vulgarisation",
+        "Analyses statistiques"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Maison Rose Up",
+      "position": "Service civique",
+      "url": "https://organization.com/",
+      "startDate": "01/12/2023",
+      "endDate": "31/05/2024",
+      "summary": "Service civique de 6 mois à Maison RoseUp de Bordeaux, qui accompagne les femmes touchées par tout type de cancer.",
+      "highlights": ["Communication", "Ecoute active et bienveillante"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "MyDigitalSchool Bordeaux",
+      "url": "https://www.mydigitalschool.com/ecole-multimedia-bordeaux/",
+      "area": "Formation en alternance, diplômante en développement web",
+      "studyType": "Titre professionnel RNCP de niveau 6 : Concepteur développeur d'applications",
+      "startDate": "01/09/2025",
+      "endDate": "28/08/2026"
+    },
+    {
+      "institution": "La piscine",
+      "url": "https://www.lapiscine.pro/",
+      "area": "Formation diplômante en développement web",
+      "studyType": "Titre professionnel RNCP de niveau 5 : Développeur web et web mobile",
+      "startDate": "11/09/2024",
+      "endDate": "01/02/2025"
+    },
+    {
+      "institution": "Université de Bordeaux",
+      "url": "https://institution.com/",
+      "area": "Master biologie-agrosciences, parcours mycologie et phytopathologie",
+      "studyType": "Master",
+      "startDate": "01/01/2019",
+      "endDate": "30/10/2021"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Niveau avancé"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Escalade",
+      "keywords": ["Voie", "Bloc"]
+    },
+    {
+      "name": "Jeux vidéo",
+      "keywords": ["Rogue Like", "Cosy games"]
+    },
+    {
+      "name": "Lecture",
+      "keywords": ["Thriller", "Fantasy", "Polar"]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
