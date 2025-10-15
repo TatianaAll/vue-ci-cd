@@ -6,7 +6,7 @@ import NavLink from "./NavLink.vue";
   <header>
     <nav class="bg-gray-600 text-white p-4">
       <div class="">
-        <ul class="relative flex h-10 items-center justify-between">
+        <ul class="relative flex h-10 items-center justify-start gap-8">
           <li class="">
             <NavLink to="#home">Accueil</NavLink>
           </li>
